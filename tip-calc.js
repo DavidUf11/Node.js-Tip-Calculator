@@ -10,11 +10,13 @@ const totalPartySize = readlineSync.questionInt('What is the size of your party?
 let tipPercentage;
 // if the party is 6+ people, skip percentage input. auto-assign 18% 
 if (totalPartySize >= 6) {
-    console.log("Since party size is greater than 5, an 18% tip is automatically applied.")
-    tipPercentage = 18;
+    console.log("Since party size is greater than 5, a 15% tip is automatically applied.")
+    tipPercentage = 15;
 } else {
     tipPercentage = readlineSync.questionFloat("What percentage would you like to tip? ");
 }
+
+
 
 // repeat all those things back to the user
 // console.log(`The total amount of your bill is: $${totalAmount.toFixed(2)}`);
