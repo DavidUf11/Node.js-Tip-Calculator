@@ -1,10 +1,9 @@
 # Tip calculator
 
-Our tip calculator. Runs on node.js.
+A simple tip calculator executable on Node.js.
 
-To run this, type the following: 
+### Run instructions 
 
-```
-yarn install
-node tip-calc.js
-```
+1. Clone and `cd` into this repo. 
+2. `yarn install` or `npm-install`
+3. `node tip-calc.js`
