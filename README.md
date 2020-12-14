@@ -1,6 +1,6 @@
 # Tip calculator
 
-A simple tip calculator executable on Node.js.
+A simple tip calculator executable on Node.js. Given a bill amount, party size, and desired tip percentage, the calculator outputs the total bill amount including tip as well as the bill per person. 
 
 ### Run instructions 
 
